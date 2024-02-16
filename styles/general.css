@@ -1,0 +1,18 @@
+
+
+body{
+  margin: 0;
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: rgb(0, 104, 101);
+}
+
+p{
+  margin: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-style: none;
+}

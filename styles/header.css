@@ -1,0 +1,139 @@
+
+
+.header-flex{
+  display: flex;
+  align-items: center;
+  background-image: url('/plaatjes/headerfoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -180px;
+  color: white;
+}
+
+.kleine-header-flex{
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 3px;
+}
+
+
+.afstand1{
+  flex: 1;
+}
+
+.afstand2{
+  flex: 6;
+}
+
+@media (min-width: 2500px){
+  .header-flex{
+    height: 1200px;
+  }
+}
+@media (max-width: 2500px) and (min-width: 2100px){
+  .header-flex{
+    height: 1000px;
+  }
+}
+
+@media (max-width: 2100px) and (min-width: 1950px){
+  .header-flex{
+    height: 900px;
+  }
+}
+
+@media (max-width: 1950px) and (min-width: 1550px){
+  .header-flex{
+    height: 700px;
+  }
+}
+
+@media (max-width: 1550px) and (min-width: 1200px){
+  .header-flex{
+    height: 500px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 100px){
+  .header-flex{
+    height: 500px;
+    background-position: 0;
+  }
+  .afstand1{
+    flex: 1;
+  }
+  .afstand2{
+    flex: 1;
+  }
+}
+
+.logo-header{
+  width: 300px;
+  background-color: transparent;
+}
+
+.socials-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-knoppen-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.socials-knoppen{
+  background-color: transparent;
+  border: none;
+}
+
+.socials-knoppen:hover{
+  cursor: pointer;
+}
+
+.youtube-icon,
+.email-icon,
+.linkedin-icon,
+.instagram-icon{
+  width: 70px;
+  transition: 0.1s;
+}
+
+
+.portfolio-knop-tekst{
+  font-size: 25px;
+  font-weight: 700;
+  width: 160px;
+  transition: 0.1s;
+}
+
+
+
+.portfolio-knop-tekst:hover{
+  width: 170px;
+}
+
+.portfolio-knoppen{
+  padding: 8px;
+  background-color: rgb(58, 49, 45);
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.portfolio-knoppen:hover{
+  cursor: pointer;
+}

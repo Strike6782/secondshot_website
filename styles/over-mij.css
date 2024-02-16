@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.over-mij-flex{
+  background-color: rgb(58, 49, 45);
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgb(3, 38, 36);
+  display: flex;
+  flex-direction: row;
+}
+
+.over-second-shot-flex{
+  background-color: rgb(58, 49, 45);
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgb(3, 38, 36);
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px){
+  .over-second-shot-flex{
+    flex-direction: column;
+  }
+  .over-mij-flex{
+    flex-direction: column;
+  }
+}
+
+.over-mij-img{
+  max-height: 315px;
+  max-width: 480px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.over-second-shot-img{
+  max-height: 315px;
+  max-width: 480px;
+  object-fit: cover;
+}
+
+.over-mij-tekst{
+  padding: 20px;
+  color: white;
+  max-width: 535px;
+}
+
+.over-second-shot-tekst{
+  padding: 20px;
+  color: white;
+  max-width: 535px;
+}
+
+.over-mij-titel{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.over-second-shot-titel{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.over-mij-beschrijving{
+  font-size: 14px;
+  width: 535px;
+  margin-top: 30px;
+}
+
+.over-second-shot-beschrijving{
+  font-size: 14px;
+  width: 535px;
+  margin-top: 30px;
+}
