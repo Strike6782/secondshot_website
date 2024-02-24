@@ -54,7 +54,7 @@
 
 .beschrijving-video{
   font-size: 14px;
-  width: 450px;
+  max-width: 450px;
   margin-top: 30px;
 }
 
@@ -74,3 +74,9 @@
   margin-top: 40px;
   
 }
+
+@media screen and (max-width:767px) {
+  iframe[src*="youtube"] {
+      width: 100% !important;
+  }
+  }
